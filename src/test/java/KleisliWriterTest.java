@@ -6,7 +6,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 /**
  * Created by mtumilowicz on 2018-12-18.
  */
-public class WriterStringTest {
+public class KleisliWriterTest {
 
     @Test
     public void composing_toUpperCase_toLetters() {
