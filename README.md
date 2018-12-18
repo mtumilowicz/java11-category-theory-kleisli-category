@@ -3,7 +3,11 @@
 _Reference_: https://bartoszmilewski.com/2014/12/23/kleisli-categories/
 
 # preface
-* Kleisli operator (`>=>`) is generalisation of function 
+* Kleisli operator (`>=>`) declaration
+    ```
+    (>=>) :: (a -> Writer b) -> (b -> Writer c) -> (a -> Writer c)
+    ```
+* Kleisli operator is generalisation of function 
 composition (associativity).
 
 # project description
