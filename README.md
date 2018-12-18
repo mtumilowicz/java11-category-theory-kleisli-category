@@ -2,6 +2,10 @@
 
 _Reference_: https://bartoszmilewski.com/2014/12/23/kleisli-categories/
 
+# preface
+* Kleisli operator (`>=>`) is generalisation of function 
+composition (associativity).
+
 # project description
 We provide:
 * Java implementation of the given examples (c++, haskell)
