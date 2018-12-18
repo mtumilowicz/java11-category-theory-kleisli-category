@@ -5,7 +5,7 @@ plugins {
 group 'java11-category-theory-kleisli-category'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 repositories {
     mavenCentral()
