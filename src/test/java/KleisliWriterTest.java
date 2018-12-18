@@ -15,14 +15,14 @@ public class KleisliWriterTest {
         var writer = composed.apply("test");
 
         assertThat(writer.result, is(new String[]{"T", "E", "S", "T"}));
-        assertThat(writer.log, is("toUpperCase, toLetters"));
+        assertThat(writer.log, is("-toUpperCase-toLetters"));
     }
 
     private Writer<String> toUpperCase(String str) {
-        return new Writer<>(str.toUpperCase(), "toUpperCase");
+        return new Writer<>(str.toUpperCase(), "-toUpperCase");
     }
 
     private Writer<String[]> toLetters(String str) {
-        return new Writer<>(str.split(""), "toLetters");
+        return new Writer<>(str.split(""), "-toLetters");
     }
 }
