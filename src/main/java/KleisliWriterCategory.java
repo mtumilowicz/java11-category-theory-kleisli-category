@@ -3,7 +3,7 @@ import java.util.function.Function;
 /**
  * Created by mtumilowicz on 2018-12-18.
  */
-class KleisliWriter {
+class KleisliWriterCategory {
     
     static <A> Function<A, Writer<A>> identity() {
         return (A a) -> new Writer<>(a, "");
